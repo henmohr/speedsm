@@ -408,44 +408,6 @@ main {
   gap: 16px;
 }
 
-.testimonials {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.testimonial {
-  border: 1px solid var(--line);
-  border-radius: 28px;
-  padding: 24px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
-  backdrop-filter: blur(14px);
-  box-shadow: var(--shadow);
-}
-
-.quote-mark {
-  margin: 0 0 10px;
-  font-size: 3rem;
-  line-height: 1;
-  color: var(--accent);
-}
-
-.testimonial p:last-of-type {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.8;
-}
-
-.testimonial span {
-  display: inline-block;
-  margin-top: 16px;
-  color: var(--accent-2);
-  font-size: 0.84rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .card {
   min-height: 220px;
   border-radius: 28px;
@@ -473,6 +435,32 @@ main {
   color: #ffffff;
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
   box-shadow: 0 12px 24px rgba(255, 90, 31, 0.18);
+}
+
+.trust-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.trust-card {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.trust-card h3 {
+  margin: 16px 0 10px;
+  font-size: 1.2rem;
+}
+
+.trust-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
 }
 
 .card-accent {
@@ -699,7 +687,7 @@ main {
   .split,
   .cards,
   .showcase,
-  .testimonials,
+  .trust-cards,
   .stats,
   .contact-layout,
   .contact-grid,
