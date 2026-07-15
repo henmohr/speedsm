@@ -98,11 +98,11 @@ a {
 }
 
 .brand-logo {
-  width: 112px;
+  width: 168px;
   height: auto;
   display: block;
-  border-radius: 14px;
-  box-shadow: 0 16px 28px rgba(255, 90, 31, 0.22);
+  border-radius: 12px;
+  box-shadow: 0 16px 28px rgba(255, 90, 31, 0.18);
 }
 
 .brand-text {
@@ -305,6 +305,57 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-top: 12px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.showcase-card {
+  position: relative;
+  min-height: 220px;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #000;
+}
+
+.showcase-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.74;
+  filter: saturate(1.12) contrast(1.05);
+}
+
+.showcase-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6, 12, 26, 0.08), rgba(6, 12, 26, 0.86));
+}
+
+.showcase-card div {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 18px;
+  z-index: 1;
+}
+
+.showcase-card h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 0.95;
+}
+
+.showcase-large {
+  min-height: 280px;
 }
 
 .stats > div {
@@ -637,6 +688,7 @@ main {
   .hero,
   .split,
   .cards,
+  .showcase,
   .testimonials,
   .stats,
   .contact-layout,
@@ -664,6 +716,10 @@ main {
 
   .hero-copy h1 {
     max-width: 12ch;
+  }
+
+  .brand-logo {
+    width: 138px;
   }
 
   .section {
