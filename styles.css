@@ -463,6 +463,40 @@ main {
   line-height: 1.75;
 }
 
+.faq-list {
+  display: grid;
+  gap: 12px;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 0 20px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow);
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 700;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.faq-item[open] {
+  border-color: rgba(255, 138, 61, 0.34);
+}
+
 .card-accent {
   background:
     linear-gradient(180deg, rgba(75, 212, 255, 0.14), rgba(255, 255, 255, 0.02)),

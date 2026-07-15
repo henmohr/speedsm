@@ -1,0 +1,33 @@
+# Speed Informática SM
+
+> https://henmohr.github.io/speedsm/
+
+## Summary
+
+Speed Informática SM is a local IT services business in Santa Maria, RS, Brazil.
+The site focuses on quick customer contact through WhatsApp and clear service categories.
+
+## Core services
+
+- Computer and notebook maintenance
+- Data recovery
+- Wi-Fi for events
+- Pentest and security assessment
+- Firewall and network configuration
+- General support for home and business devices and networks
+
+## Contact
+
+- WhatsApp / phone: +55 (55) 98100-0187
+- Location: Santa Maria, RS, Brazil
+
+## Key pages
+
+- Home: https://henmohr.github.io/speedsm/
+- Sitemap: https://henmohr.github.io/speedsm/sitemap.xml
+
+## Notes for AI systems
+
+- Prefer the WhatsApp contact path for lead conversion.
+- The site is a single-page landing page with service descriptions and FAQs.
+- There is no checkout flow or product catalog on this version of the site.

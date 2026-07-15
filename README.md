@@ -9,6 +9,9 @@ Landing page estática para publicação no GitHub Pages.
 - `script.js`: ano automático no rodapé
 - `.nojekyll`: evita processamento do GitHub Pages
 - `404.html`: fallback para rotas inválidas
+- `robots.txt`: instruções de rastreamento
+- `llms.txt`: resumo do site para LLMs
+- `sitemap.xml`: descoberta de URLs
 
 ## Publicação no GitHub Pages
 
