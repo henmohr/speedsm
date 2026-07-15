@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Speed Informática SM</title>
+  <desc id="desc">Imagem de compartilhamento da Speed Informática SM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07142D"/>
+      <stop offset="1" stop-color="#050D23"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="120" x2="1040" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5A1F"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <circle cx="1020" cy="120" r="220" fill="#FF5A1F" fill-opacity="0.12"/>
+  <circle cx="160" cy="530" r="260" fill="#FF8A3D" fill-opacity="0.08"/>
+  <rect x="92" y="92" width="1016" height="446" rx="36" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <path d="M152 188H236L324 244L308 280L258 252L244 260L304 300L288 338L236 310H190L212 272L152 224V188Z" fill="#FF5A1F"/>
+  <text x="214" y="302" fill="#FF5A1F" font-size="116" font-style="italic" font-weight="800" font-family="Montserrat, Arial, sans-serif" letter-spacing="-3">Speed</text>
+  <text x="218" y="372" fill="#FFFFFF" font-size="82" font-style="italic" font-weight="800" font-family="Montserrat, Arial, sans-serif" letter-spacing="-2">Informática</text>
+  <text x="596" y="372" fill="#FFFFFF" font-size="46" font-weight="700" font-family="Montserrat, Arial, sans-serif" letter-spacing="2">SM</text>
+  <text x="214" y="442" fill="#BDC9E8" font-size="34" font-weight="600" font-family="Montserrat, Arial, sans-serif">
+    Assistência técnica, recuperação de dados, Wi-Fi para eventos e segurança
+  </text>
+  <text x="214" y="486" fill="#BDC9E8" font-size="28" font-weight="500" font-family="Montserrat, Arial, sans-serif">
+    Santa Maria/RS
+  </text>
+  <rect x="860" y="208" width="210" height="64" rx="32" fill="url(#accent)"/>
+  <text x="944" y="248" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="Montserrat, Arial, sans-serif">WhatsApp</text>
+  <rect x="860" y="292" width="210" height="64" rx="32" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="965" y="332" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="700" font-family="Montserrat, Arial, sans-serif">Redes</text>
+  <rect x="860" y="376" width="210" height="64" rx="32" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="965" y="416" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="700" font-family="Montserrat, Arial, sans-serif">Segurança</text>
+</svg>

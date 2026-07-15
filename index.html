@@ -7,9 +7,69 @@
       name="description"
       content="Speed Informática SM: assistência técnica, recuperação de dados, redes Wi-Fi para eventos, pentest e firewall em Santa Maria/RS."
     />
+    <meta name="robots" content="index,follow" />
     <title>Speed Informática SM | Assistência técnica e redes</title>
+    <link rel="canonical" href="https://henmohr.github.io/speedsm/" />
+    <meta name="theme-color" content="#07142d" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Speed Informática SM" />
+    <meta property="og:title" content="Speed Informática SM | Assistência técnica e redes" />
+    <meta
+      property="og:description"
+      content="Assistência técnica, recuperação de dados, Wi-Fi para eventos, pentest e firewall em Santa Maria/RS."
+    />
+    <meta property="og:url" content="https://henmohr.github.io/speedsm/" />
+    <meta property="og:image" content="https://henmohr.github.io/speedsm/og-image.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Speed Informática SM | Assistência técnica e redes" />
+    <meta
+      name="twitter:description"
+      content="Assistência técnica, recuperação de dados, Wi-Fi para eventos, pentest e firewall em Santa Maria/RS."
+    />
+    <meta name="twitter:image" content="https://henmohr.github.io/speedsm/og-image.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Speed Informática SM",
+        "url": "https://henmohr.github.io/speedsm/",
+        "image": "https://henmohr.github.io/speedsm/logo-original.webp",
+        "telephone": "+5555981000187",
+        "description": "Assistência técnica, recuperação de dados, redes Wi-Fi para eventos, pentest e firewall em Santa Maria/RS.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santa Maria",
+          "addressRegion": "RS",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Santa Maria"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Rio Grande do Sul"
+          }
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+5555981000187",
+            "areaServed": "BR",
+            "availableLanguage": ["pt-BR"]
+          }
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="logo-original.webp" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -24,7 +84,14 @@
 
     <header class="topbar">
       <a class="brand" href="#inicio" aria-label="Speed Informática SM">
-        <img class="brand-logo" src="logo-original.webp" alt="Speed Informática SM" />
+        <img
+          class="brand-logo"
+          src="logo-original.webp"
+          alt="Speed Informática SM"
+          width="399"
+          height="272"
+          fetchpriority="high"
+        />
         <span class="brand-text">
           <strong>Speed</strong>
           <span>Informática SM</span>
@@ -108,21 +175,42 @@
 
       <section class="showcase" aria-label="Destaques visuais">
         <article class="showcase-card showcase-large">
-          <img src="banner-dell.webp" alt="Peças e acessórios Dell" />
+          <img
+            src="banner-dell.webp"
+            alt="Peças e acessórios Dell"
+            width="399"
+            height="272"
+            loading="eager"
+            decoding="async"
+          />
           <div>
             <p class="eyebrow">Peças e acessórios</p>
             <h2>Dell</h2>
           </div>
         </article>
         <article class="showcase-card">
-          <img src="banner-notebooks.webp" alt="Peças e acessórios para notebooks" />
+          <img
+            src="banner-notebooks.webp"
+            alt="Peças e acessórios para notebooks"
+            width="399"
+            height="272"
+            loading="lazy"
+            decoding="async"
+          />
           <div>
             <p class="eyebrow">Peças e acessórios</p>
             <h2>Notebooks</h2>
           </div>
         </article>
         <article class="showcase-card">
-          <img src="banner-lenovo.webp" alt="Peças e acessórios Lenovo" />
+          <img
+            src="banner-lenovo.webp"
+            alt="Peças e acessórios Lenovo"
+            width="399"
+            height="272"
+            loading="lazy"
+            decoding="async"
+          />
           <div>
             <p class="eyebrow">Peças e acessórios</p>
             <h2>Lenovo</h2>
@@ -317,10 +405,10 @@
                   required
                 ></textarea>
               </label>
-              <button class="cta full" type="submit">Enviar contato</button>
-              <p class="form-note full">
-                O envio abre seu aplicativo de e-mail com a mensagem pronta. Se preferir,
-                use o WhatsApp direto.
+              <button class="cta full" type="submit">Enviar no WhatsApp</button>
+              <p class="form-note contact-status full" id="contact-status" aria-live="polite">
+                O envio abre uma conversa no WhatsApp com a mensagem pronta. Se preferir,
+                use o botão direto.
               </p>
             </form>
 

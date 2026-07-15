@@ -1,8 +1,11 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+const YEAR = new Date().getFullYear();
+document.getElementById("year").textContent = YEAR;
 
+const CONTACT_PHONE = "5555981000187";
 const form = document.getElementById("contact-form");
+const status = document.getElementById("contact-status");
 
-if (form) {
+if (form && status) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -11,17 +14,24 @@ if (form) {
     const email = String(data.get("email") || "").trim();
     const servico = String(data.get("servico") || "").trim();
     const mensagem = String(data.get("mensagem") || "").trim();
-    const subject = encodeURIComponent(`Contato pelo site - ${servico || "Speed Informática SM"}`);
-    const body = encodeURIComponent(
-      [
-        `Nome: ${nome}`,
-        `E-mail: ${email}`,
-        `Serviço de interesse: ${servico}`,
-        "",
-        mensagem,
-      ].join("\n")
-    );
 
-    window.location.href = `mailto:contato@speedinformaticasm.com.br?subject=${subject}&body=${body}`;
+    if (!nome || !email || !servico || !mensagem) {
+      status.textContent = "Preencha todos os campos para continuar.";
+      return;
+    }
+
+    const text = [
+      "Olá, vim pelo site da Speed Informática SM.",
+      "",
+      `Nome: ${nome}`,
+      `E-mail: ${email}`,
+      `Serviço de interesse: ${servico}`,
+      "",
+      mensagem,
+    ].join("\n");
+
+    const url = `https://wa.me/${CONTACT_PHONE}?text=${encodeURIComponent(text)}`;
+    status.textContent = "Abrindo o WhatsApp com sua mensagem...";
+    window.location.href = url;
   });
 }

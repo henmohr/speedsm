@@ -44,6 +44,11 @@ a {
   text-rendering: optimizeLegibility;
 }
 
+:focus-visible {
+  outline: 3px solid rgba(255, 138, 61, 0.92);
+  outline-offset: 3px;
+}
+
 .bg-orb {
   position: fixed;
   inset: auto;
@@ -648,6 +653,11 @@ main {
   display: block;
   max-height: 34px;
   width: auto;
+}
+
+.contact-status {
+  min-height: 1.6em;
+  color: var(--muted);
 }
 
 .footer {
